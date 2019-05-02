@@ -16,7 +16,7 @@ const NavBar = () => {
   return (
     <Navbar white expand="md">
       <NavbarBrand href="/" className="mx-auto">
-        Digital
+        <span className="fa fa-cloud" /> Digital
       </NavbarBrand>
       <NavbarToggler />
       <Nav className="mx-auto" navbar>
