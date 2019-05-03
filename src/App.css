@@ -92,7 +92,8 @@ a.navbar-brand {
 }
 
 .about-section h1,
-.services-section h1 {
+.services-section h1,
+.process-section h1 {
   font-size: 45px;
   line-height: 54px;
   font-weight: 500;
@@ -121,7 +122,7 @@ div.services-fw {
 }
 
 .services-section h1 {
-  padding: 30px 0;
+  padding: 40px 0;
 }
 .card {
   height: 270px;
@@ -161,16 +162,26 @@ div.services-fw {
 
 /* Card Text */
 
-.card-title {
+.card-title,
+.process-section p {
   font-size: 25px;
   line-height: 30px;
   font-weight: 600;
   color: #333333;
 }
 
-p.card-text {
+p.card-text,
+.process-section p {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
   color: #212529;
+  padding-right: 25px;
+}
+
+/* Marketing Process Section */
+
+.container.process-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }

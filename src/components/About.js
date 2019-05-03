@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import gameboy from '../assets/gameboy-w3-small.png';
+import gameboy from '../assets/gameboy-w3.png';
 
 const About = () => {
   return (
@@ -24,7 +24,7 @@ const About = () => {
           </p>
         </Col>
         <Col md="4">
-          <img src={gameboy} alt="gameboy" />
+          <img src={gameboy} alt="gameboy" className="img-fluid" />
         </Col>
       </Row>
     </Container>
