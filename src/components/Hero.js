@@ -10,7 +10,7 @@ const Hero = () => {
       <Container className="hero">
         <Row className="banner">
           <Col sm="6">
-            <h2 id="banner-title">Welcome To Digital Marketing Agency</h2>
+            <h1 id="banner-title">Welcome To Digital Marketing Agency</h1>
             <p>
               Integer pulvinar leo id viverra feugiat. Pellentesque libero
               justo, semper at tempus vel, ultrices in ligula. Nulla ut
