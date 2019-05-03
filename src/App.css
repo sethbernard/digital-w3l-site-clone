@@ -117,7 +117,8 @@ a.navbar-brand {
 
 /* Services Section */
 
-div.services-fw {
+div.services-fw,
+div.agency-fw {
   background-color: rgb(248, 249, 250);
 }
 
@@ -175,7 +176,7 @@ p.card-text,
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-  color: #212529;
+  color: #777777;
   padding-right: 25px;
 }
 
@@ -184,4 +185,27 @@ p.card-text,
 .container.process-section {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+/* Agency Section */
+
+.container.agency-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.agency-section h1 {
+  font-size: 53px;
+  line-height: 63px;
+  font-weight: 600;
+  color: #333333;
+  padding: 20px 0;
+}
+
+.agency-section p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #666666;
+  padding-right: 60px;
 }
