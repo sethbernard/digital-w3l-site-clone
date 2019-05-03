@@ -10,6 +10,8 @@ div.container-fluid {
   padding: 0px;
 }
 
+/* Navbar */
+
 .navbar {
   background: slateblue;
 }
@@ -43,6 +45,8 @@ a.navbar-brand {
   width: 80px;
   text-align: center;
 }
+
+/* Hero Section */
 
 .jumbo {
   width: 100vw;
@@ -81,11 +85,14 @@ a.navbar-brand {
   background-color: slateblue;
 }
 
+/* About Section */
+
 .container.about-section {
-  padding-top: 110px;
+  padding: 60px 0;
 }
 
-.about-section h1 {
+.about-section h1,
+.services-section h1 {
   font-size: 45px;
   line-height: 54px;
   font-weight: 500;
@@ -105,4 +112,65 @@ a.navbar-brand {
   line-height: 30px;
   font-weight: 400;
   color: #777777;
+}
+
+/* Services Section */
+
+div.services-fw {
+  background-color: rgb(248, 249, 250);
+}
+
+.services-section h1 {
+  padding: 30px 0;
+}
+.card {
+  height: 270px;
+  padding: 24px;
+  margin-bottom: 50px;
+}
+
+/* Service Icons */
+
+.fa-bandcamp,
+.fa-codepen,
+.fa-btc,
+.cloud-icon {
+  font-size: 30px;
+  line-height: 65px;
+  width: 65px;
+  height: 65px;
+  text-align: center;
+  background-color: #f2f2f2;
+  margin-bottom: 20px;
+}
+
+.fa-bandcamp {
+  color: #ff4f81;
+}
+
+.fa-codepen {
+  color: #00aeff;
+}
+.fa-btc {
+  color: #2dde98;
+}
+
+.cloud-icon {
+  color: #fe5000;
+}
+
+/* Card Text */
+
+.card-title {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #333333;
+}
+
+p.card-text {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #212529;
 }
