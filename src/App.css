@@ -209,3 +209,15 @@ p.card-text,
   color: #666666;
   padding-right: 60px;
 }
+
+/* Portfolio Section */
+
+.portfolio-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.portfolio-section h1 {
+  align-self: flex-start;
+  padding-bottom: 40px;
+}
