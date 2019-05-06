@@ -16,7 +16,7 @@ import {
 const NavBar = () => {
   return (
     <Container>
-      <Navbar white expand="md">
+      <Navbar expand="md">
         <NavbarBrand href="/">
           <span className="fa fa-cloud" /> Digital
         </NavbarBrand>

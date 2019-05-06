@@ -265,3 +265,67 @@ div.col-md-2 {
   border-right: 1px #eeeeee solid;
   text-align: center;
 }
+
+/* Footer */
+
+.footer-fw {
+  background-color: #212020;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer p,
+.footer li,
+.copyright-fw p {
+  font-size: 15px;
+  line-height: 29px;
+  font-weight: 400;
+  color: #777777;
+  list-style-type: none;
+}
+
+.footer h3 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.footer h4 {
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 500;
+  color: #aaaaaa;
+}
+
+.footer-links.col-md-2 {
+  border-right: none;
+}
+
+.link-list li {
+  margin-bottom: 10px;
+}
+
+.link-list a {
+  color: #777777;
+}
+
+.link-list a:hover {
+  color: #aaaaaa;
+}
+
+.copyright-fw p {
+  text-align: center;
+  background-color: #212020;
+  padding: 24px 0;
+  margin-bottom: 0;
+  border-top: 1px solid #333333;
+}
+
+.copyright-fw a,
+.copyright-fw a:hover {
+  color: #ffffff;
+}

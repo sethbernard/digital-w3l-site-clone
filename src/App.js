@@ -7,6 +7,8 @@ import Process from './components/Process';
 import Agency from './components/Agency';
 import Portfolio from './components/Portfolio';
 import Partners from './components/Partners';
+import Footer from './components/Footer';
+import Copyright from './components/Copyright';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Agency />
       <Portfolio />
       <Partners />
+      <Footer />
+      <Copyright />
     </div>
   );
 }
