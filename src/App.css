@@ -221,3 +221,47 @@ p.card-text,
   align-self: flex-start;
   padding-bottom: 40px;
 }
+
+/* Partners Section */
+
+.partners-fw {
+  background-color: #b74592;
+}
+
+.container.partners-section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.partners-section h1 {
+  color: white;
+  padding-bottom: 50px;
+}
+
+/* Icons */
+
+.icons {
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-codepen.codepen-logo {
+  margin-bottom: 0;
+}
+
+.fa-lastfm,
+.fa-codiepie,
+.fa-drupal,
+.fa-dashcube,
+.fa-skyatlas,
+.codepen-logo {
+  font-size: 48px;
+  line-height: 48px;
+  color: #eeeeee;
+  background-color: #b74592;
+}
+
+div.col-md-2 {
+  border-right: 1px #eeeeee solid;
+  text-align: center;
+}

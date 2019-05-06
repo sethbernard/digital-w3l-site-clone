@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'reactstrap';
 import gameboy from '../assets/gameboy-w3.png';
 import snesController from '../assets/snes-controller-w3.png';
 
-function Process() {
+const Process = () => {
   return (
     <div className="process-fw">
       <Container className="process-section">
@@ -57,6 +57,6 @@ function Process() {
       </Container>
     </div>
   );
-}
+};
 
 export default Process;

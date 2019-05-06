@@ -6,6 +6,7 @@ import Services from './components/Services';
 import Process from './components/Process';
 import Agency from './components/Agency';
 import Portfolio from './components/Portfolio';
+import Partners from './components/Partners';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Process />
       <Agency />
       <Portfolio />
+      <Partners />
     </div>
   );
 }
