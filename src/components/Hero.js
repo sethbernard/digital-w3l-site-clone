@@ -9,7 +9,7 @@ const Hero = () => {
       <NavBar />
       <Container className="hero">
         <Row className="banner">
-          <Col sm="6">
+          <Col md="6">
             <h1 id="banner-title">Welcome To Digital Marketing Agency</h1>
             <p>
               Integer pulvinar leo id viverra feugiat. Pellentesque libero
@@ -20,8 +20,8 @@ const Hero = () => {
             <button>Read More</button>
             <button>Watch Video</button>
           </Col>
-          <Col sm="6">
-            <img src={bannerImage} alt="banner" />
+          <Col md="6">
+            <img src={bannerImage} alt="banner" className="img-fluid" />
           </Col>
         </Row>
       </Container>

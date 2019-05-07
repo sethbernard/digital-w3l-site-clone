@@ -8,12 +8,12 @@ const Process = () => {
     <div className="process-fw">
       <Container className="process-section">
         <Row>
-          <Col md="4">
+          <Col xs="12">
             <h1>Marketing Process</h1>
           </Col>
         </Row>
         <Row>
-          <Col md="3">
+          <Col xs="12" md="6" lg="3">
             <img src={gameboy} alt="gameboy" className="img-fluid" />
             <h3>Marketing Products</h3>
             <p>
@@ -21,7 +21,7 @@ const Process = () => {
               lacinia id erat risus quis.
             </p>
           </Col>
-          <Col md="3">
+          <Col xs="12" md="6" lg="3">
             <img
               src={snesController}
               alt="snes controller"
@@ -33,7 +33,7 @@ const Process = () => {
               lacinia id erat risus quis.
             </p>
           </Col>
-          <Col md="3">
+          <Col xs="12" md="6" lg="3">
             <img src={gameboy} alt="gameboy" className="img-fluid" />
             <h3>Process Planning</h3>
             <p>
@@ -41,7 +41,7 @@ const Process = () => {
               lacinia id erat risus quis.
             </p>
           </Col>
-          <Col md="3">
+          <Col xs="12" md="6" lg="3">
             <img
               src={snesController}
               alt="snes controller"

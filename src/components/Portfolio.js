@@ -1,17 +1,19 @@
 import React from 'react';
-import { Container } from 'reactstrap';
+import { Container, Row, Col } from 'reactstrap';
 
 const Portfolio = () => {
   const imageFileNames = ['p1', 'p2', 'p3', 'p4', 'p5', 'p6', 'p7', 'p8'];
   const portfolioImages = imageFileNames.map(image => {
     return (
-      <img
-        key={image}
-        src={require(`../assets/portfolio-images/${image}.jpg`)}
-        alt=""
-        className="img-responsive"
-        style={{ width: '270px', height: '200px', paddingBottom: '15px' }}
-      />
+      <Col xs="6" md="3">
+        <img
+          key={image}
+          src={require(`../assets/portfolio-images/${image}.jpg`)}
+          alt=""
+          className="img-fluid"
+          style={{ paddingBottom: '30px' }}
+        />
+      </Col>
     );
   });
 
@@ -28,7 +30,7 @@ const Portfolio = () => {
           alignContent: 'center'
         }}
       >
-        {portfolioImages}
+        <Row>{portfolioImages}</Row>
       </Container>
     </div>
   );

@@ -6,7 +6,13 @@ const Footer = () => {
     <div className="footer-fw">
       <Container>
         <Row className="footer">
-          <Col md="4" className="footer-description">
+          <Col
+            xs="12"
+            sm="6"
+            lg="4"
+            className="footer-description"
+            style={{ paddingBottom: '20px' }}
+          >
             <h3>WHO WE ARE</h3>
             <p>
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -17,7 +23,13 @@ const Footer = () => {
             <h4>Trusted by more than 1000+ people</h4>
           </Col>
 
-          <Col md="3" className="footer-news">
+          <Col
+            xs="12"
+            sm="6"
+            lg="3"
+            className="footer-news"
+            style={{ paddingBottom: '20px' }}
+          >
             <h3>LATEST NEWS</h3>
             <h4>
               <span className="fab fa-twitter" /> Sed ut piciatis unde natus
@@ -26,14 +38,20 @@ const Footer = () => {
               Sed ut perspiciatis unde omnis iste natus error sit volupta....
             </p>
             <h4>
-              <span className="fab fa-twitter" /> Modi tempra incunt sit
+              <span className="fab fa-twitter" /> Modi tempra sit
             </h4>
             <p>
               Sed ut perspiciatis unde omnis iste natus error sit volupta....
             </p>
           </Col>
 
-          <Col md="3" className="footer-contact">
+          <Col
+            xs="12"
+            sm="6"
+            lg="3"
+            className="footer-contact"
+            style={{ paddingBottom: '20px' }}
+          >
             <h3>CONTACT US</h3>
             <h4>
               <span className="fa fa-map-marker" /> Location
@@ -51,7 +69,13 @@ const Footer = () => {
             </li>
           </Col>
 
-          <Col md="2" className="footer-links">
+          <Col
+            xs="12"
+            sm="6"
+            lg="2"
+            className="footer-links"
+            style={{ paddingBottom: '20px' }}
+          >
             <h3>QUICK LINKS</h3>
             <ul className="link-list">
               <li>

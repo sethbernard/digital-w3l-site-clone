@@ -5,15 +5,13 @@
   box-sizing: border-box;
 }
 
-div.container,
-div.container-fluid {
-  padding: 0px;
-}
-
 /* Navbar */
 
 .navbar {
   background: slateblue;
+}
+button.navbar-toggler {
+  background-color: white;
 }
 
 nav.navbar {
@@ -54,7 +52,7 @@ a.navbar-brand {
 }
 
 .banner {
-  padding-top: 180px;
+  padding-top: 140px;
   padding-bottom: 117px;
   align-items: center;
 }
@@ -126,7 +124,7 @@ div.agency-fw {
   padding: 40px 0;
 }
 .card {
-  height: 270px;
+  max-height: 310px;
   padding: 24px;
   margin-bottom: 50px;
 }
@@ -261,7 +259,7 @@ p.card-text,
   background-color: #b74592;
 }
 
-div.col-md-2 {
+.icons div.col-lg-2 {
   border-right: 1px #eeeeee solid;
   text-align: center;
 }
@@ -273,7 +271,7 @@ div.col-md-2 {
   display: flex;
   justify-content: center;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 .footer p,
@@ -301,7 +299,7 @@ div.col-md-2 {
   color: #aaaaaa;
 }
 
-.footer-links.col-md-2 {
+.footer-links.col-lg-2 {
   border-right: none;
 }
 
@@ -317,6 +315,12 @@ div.col-md-2 {
   color: #aaaaaa;
 }
 
+ul.link-list {
+  padding-left: 0;
+}
+
+/* Copyright Section */
+
 .copyright-fw p {
   text-align: center;
   background-color: #212020;
@@ -328,4 +332,36 @@ div.col-md-2 {
 .copyright-fw a,
 .copyright-fw a:hover {
   color: #ffffff;
+}
+
+/* Media Queries */
+
+@media (max-width: 991.98px) {
+  .banner {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  #banner-title {
+    font-size: 40px;
+  }
+
+  .banner img {
+    padding-top: 60px;
+  }
+
+  .about-section.container {
+    max-width: 85vw;
+  }
+  .about-section h1,
+  .agency-section h1,
+  .services-section h1,
+  .process-section h1,
+  .portfolio-section h1,
+  .partners-section h1 {
+    font-size: 35px;
+  }
+  .agency-section.container {
+    padding: 40px 15px;
+  }
 }

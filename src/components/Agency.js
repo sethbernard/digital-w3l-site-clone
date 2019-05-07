@@ -7,7 +7,7 @@ function Agency() {
     <div className="agency-fw">
       <Container className="agency-section">
         <Row>
-          <Col md="6">
+          <Col xs="12" lg="6">
             <h1>Digital Marketing Business Agency</h1>
             <p>
               Lorem ipsum dolor sit amet Neque porro quisquam est qui dolorem
@@ -17,7 +17,7 @@ function Agency() {
               interdum.
             </p>
           </Col>
-          <Col md="6">
+          <Col xs="12" lg="6">
             <img src={laptop} alt="laptop and phone" className="img-fluid" />
           </Col>
         </Row>

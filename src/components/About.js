@@ -6,10 +6,10 @@ const About = () => {
   return (
     <Container className="about-section">
       <Row>
-        <Col md="4">
+        <Col xs="12" lg="4">
           <h1>About Us</h1>
         </Col>
-        <Col md="4">
+        <Col xs="12" md="6" lg="4">
           <h3>Welcome To Our Digital Marketing Agency Website</h3>
           <p>
             Integer pulvinar leo id viverra feugiat. Pellentesque libero justo,
@@ -23,7 +23,7 @@ const About = () => {
             turpis massa in condimentum libero. Pellentesque maximus.
           </p>
         </Col>
-        <Col md="4">
+        <Col xs="12" md="6" lg="4">
           <img src={gameboy} alt="gameboy" className="img-fluid" />
         </Col>
       </Row>

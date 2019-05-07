@@ -7,12 +7,12 @@ const Services = () => {
     <div className="services-fw">
       <Container className="services-section">
         <Row>
-          <Col md="4">
+          <Col lg="4">
             <h1>What We Provide</h1>
           </Col>
         </Row>
         <Row>
-          <Col md="3">
+          <Col md="6" lg="3">
             <Card className="shadow-lg">
               <span className="fab fa-bandcamp" />
               <CardTitle className="card-title">Branding</CardTitle>
@@ -23,7 +23,7 @@ const Services = () => {
             </Card>
           </Col>
 
-          <Col md="3">
+          <Col md="6" lg="3">
             <Card className="shadow-lg">
               <span className="fab fa-codepen" />
               <CardTitle className="card-title">Marketing</CardTitle>
@@ -33,7 +33,7 @@ const Services = () => {
               </CardText>
             </Card>
           </Col>
-          <Col md="3">
+          <Col md="6" lg="3">
             <Card className="shadow-lg">
               <span className="fab fa-btc" />
               <CardTitle className="card-title">Advertising</CardTitle>
@@ -43,7 +43,7 @@ const Services = () => {
               </CardText>
             </Card>
           </Col>
-          <Col md="3">
+          <Col md="6" lg="3">
             <Card className="shadow-lg">
               <span className="fa fa-cloud cloud-icon" />
               <CardTitle className="card-title">Product Sales</CardTitle>
