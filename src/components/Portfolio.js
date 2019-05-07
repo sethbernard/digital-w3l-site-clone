@@ -5,9 +5,8 @@ const Portfolio = () => {
   const imageFileNames = ['p1', 'p2', 'p3', 'p4', 'p5', 'p6', 'p7', 'p8'];
   const portfolioImages = imageFileNames.map(image => {
     return (
-      <Col xs="6" md="3">
+      <Col xs="6" md="3" key={image}>
         <img
-          key={image}
           src={require(`../assets/portfolio-images/${image}.jpg`)}
           alt=""
           className="img-fluid"

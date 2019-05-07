@@ -31,11 +31,13 @@ class NavBar extends Component {
   render() {
     return (
       <Container>
-        <Navbar expand="sm">
+        <Navbar expand="md">
           <NavbarBrand href="/">
             <span className="fa fa-cloud" /> Digital
           </NavbarBrand>
-          <NavbarToggler onClick={this.toggle} />
+          <NavbarToggler onClick={this.toggle}>
+            <span className="fa fa-bars" />
+          </NavbarToggler>
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav navbar className="ml-auto">
               <NavItem>

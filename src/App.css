@@ -10,9 +10,6 @@
 .navbar {
   background: slateblue;
 }
-button.navbar-toggler {
-  background-color: white;
-}
 
 nav.navbar {
   padding: 16px 0px;
@@ -22,7 +19,7 @@ a.navbar-brand,
 a.navbar-brand:hover,
 a.nav-link,
 a.nav-link:hover {
-  color: white;
+  color: #fff;
 }
 
 a.nav-link {
@@ -36,12 +33,29 @@ a.navbar-brand {
   font-weight: 800;
   margin: 0;
 }
+.fa.fa-bars {
+  color: #fff;
+}
+
+button.navbar-toggler {
+  border: 1px solid #fff;
+  padding: 6px 10px;
+  text-decoration: none;
+}
+
+span.navbar-toggler-icon {
+  padding-top: 4px;
+}
 
 #login {
-  background: white;
+  background: #fff;
   color: slateblue;
   width: 80px;
   text-align: center;
+}
+.navbar-collapse .nav-item {
+  display: flex;
+  justify-content: flex-end;
 }
 
 /* Hero Section */
@@ -61,7 +75,7 @@ a.navbar-brand {
   font-size: 56px;
   line-height: 65px;
   font-weight: 500;
-  color: white;
+  color: #fff;
 }
 
 .banner p {
@@ -69,7 +83,7 @@ a.navbar-brand {
   font-size: 16px;
   line-height: 30px;
   font-weight: 400;
-  color: #dddddd;
+  color: #ddd;
 }
 
 .banner button {
@@ -78,8 +92,8 @@ a.navbar-brand {
   width: 126px;
   text-align: center;
   text-decoration: none;
-  color: white;
-  border: 2px solid white;
+  color: #fff;
+  border: 2px solid #fff;
   background-color: slateblue;
 }
 
@@ -95,7 +109,7 @@ a.navbar-brand {
   font-size: 45px;
   line-height: 54px;
   font-weight: 500;
-  color: #333333;
+  color: #333;
 }
 
 .about-section h3 {
@@ -103,14 +117,14 @@ a.navbar-brand {
   font-size: 27px;
   line-height: 38px;
   font-weight: 600;
-  color: #333333;
+  color: #333;
 }
 
 .about-section p {
   font-size: 16px;
   line-height: 30px;
   font-weight: 400;
-  color: #777777;
+  color: #777;
 }
 
 /* Services Section */
@@ -166,7 +180,7 @@ div.agency-fw {
   font-size: 25px;
   line-height: 30px;
   font-weight: 600;
-  color: #333333;
+  color: #333;
 }
 
 p.card-text,
@@ -174,7 +188,7 @@ p.card-text,
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-  color: #777777;
+  color: #777;
   padding-right: 25px;
 }
 
@@ -196,7 +210,7 @@ p.card-text,
   font-size: 53px;
   line-height: 63px;
   font-weight: 600;
-  color: #333333;
+  color: #333;
   padding: 20px 0;
 }
 
@@ -204,7 +218,7 @@ p.card-text,
   font-size: 16px;
   line-height: 30px;
   font-weight: 400;
-  color: #666666;
+  color: #666;
   padding-right: 60px;
 }
 
@@ -232,7 +246,7 @@ p.card-text,
 }
 
 .partners-section h1 {
-  color: white;
+  color: #fff;
   padding-bottom: 50px;
 }
 
@@ -255,12 +269,11 @@ p.card-text,
 .codepen-logo {
   font-size: 48px;
   line-height: 48px;
-  color: #eeeeee;
+  color: #eee;
   background-color: #b74592;
 }
 
-.icons div.col-lg-2 {
-  border-right: 1px #eeeeee solid;
+.icons {
   text-align: center;
 }
 
@@ -288,7 +301,7 @@ p.card-text,
   font-size: 20px;
   line-height: 24px;
   font-weight: 500;
-  color: #ffffff;
+  color: #fff;
   margin-bottom: 24px;
 }
 
@@ -296,7 +309,7 @@ p.card-text,
   font-size: 15px;
   line-height: 18px;
   font-weight: 500;
-  color: #aaaaaa;
+  color: #aaa;
 }
 
 .footer-links.col-lg-2 {
@@ -308,15 +321,19 @@ p.card-text,
 }
 
 .link-list a {
-  color: #777777;
+  color: #777;
 }
 
 .link-list a:hover {
-  color: #aaaaaa;
+  color: #aaa;
 }
 
 ul.link-list {
   padding-left: 0;
+}
+
+.footer span {
+  margin-right: 5px;
 }
 
 /* Copyright Section */
@@ -326,12 +343,12 @@ ul.link-list {
   background-color: #212020;
   padding: 24px 0;
   margin-bottom: 0;
-  border-top: 1px solid #333333;
+  border-top: 1px solid #333;
 }
 
 .copyright-fw a,
 .copyright-fw a:hover {
-  color: #ffffff;
+  color: #fff;
 }
 
 /* Media Queries */
@@ -363,5 +380,11 @@ ul.link-list {
   }
   .agency-section.container {
     padding: 40px 15px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  span.navbar-toggler-icon {
+    color: black;
   }
 }
