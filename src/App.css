@@ -55,7 +55,12 @@ span.navbar-toggler-icon {
 }
 .navbar-collapse .nav-item {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+}
+.navbar-collapse {
+  border: 1px solid white;
+  margin-top: 40px;
+  padding: 10px 0 20px 0;
 }
 
 /* Hero Section */
@@ -353,6 +358,8 @@ ul.link-list {
 
 /* Media Queries */
 
+/* Extra small to Medium screen width */
+
 @media (max-width: 991.98px) {
   .banner {
     padding-top: 70px;
@@ -383,8 +390,29 @@ ul.link-list {
   }
 }
 
-@media (max-width: 767.98px) {
-  span.navbar-toggler-icon {
-    color: black;
+/* Extra small screen width only */
+
+@media (max-width: 575.98px) {
+  .navbar,
+  .hero.container,
+  .about-section,
+  .services-section,
+  .process-section,
+  .agency-section,
+  .footer {
+    max-width: 90vw;
+  }
+  h1 {
+    text-align: center;
+  }
+  .process-section {
+    text-align: center;
+  }
+  .agency-section h1 {
+    text-align: center;
+  }
+
+  .agency-section p {
+    padding: 0px;
   }
 }
