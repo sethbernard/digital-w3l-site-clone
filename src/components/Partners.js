@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'reactstrap';
 const Partners = () => {
   return (
     <div className="partners-fw">
-      <Container className="partners-section">
+      <Container className="partners-section" id="partners">
         <Row>
           <Col>
             <h1>Our Marketing Partners</h1>

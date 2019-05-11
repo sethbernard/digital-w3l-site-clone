@@ -5,7 +5,7 @@ import snesController from '../assets/snes-controller-w3.png';
 
 const Process = () => {
   return (
-    <div className="process-fw">
+    <div className="process-fw" id="process">
       <Container className="process-section">
         <Row>
           <Col xs="12">

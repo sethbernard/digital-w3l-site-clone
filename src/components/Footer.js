@@ -65,7 +65,13 @@ const Footer = () => {
               <span className="fa fa-envelope-open" /> Email
             </h4>
             <li className="link-list">
-              <a href="#">info@example.com</a>
+              <a
+                href="https://google.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                info@example.com
+              </a>
             </li>
           </Col>
 
@@ -82,19 +88,19 @@ const Footer = () => {
                 <a href="#">Home</a>
               </li>
               <li>
-                <a href="#">About Us</a>
+                <a href="#about">About Us</a>
               </li>
               <li>
-                <a href="#">Services</a>
+                <a href="#services">Services</a>
               </li>
               <li>
-                <a href="#">Process</a>
+                <a href="#process">Process</a>
               </li>
               <li>
-                <a href="#">Portfolio</a>
+                <a href="#portfolio">Portfolio</a>
               </li>
               <li>
-                <a href="#">Contact Us</a>
+                <a href="#contact">Contact Us</a>
               </li>
             </ul>
           </Col>

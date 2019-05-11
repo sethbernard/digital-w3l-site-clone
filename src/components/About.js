@@ -4,7 +4,7 @@ import gameboy from '../assets/gameboy-w3.png';
 
 const About = () => {
   return (
-    <Container className="about-section">
+    <Container className="about-section" id="about">
       <Row>
         <Col xs="12" lg="4">
           <h1>About Us</h1>

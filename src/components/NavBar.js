@@ -44,16 +44,16 @@ class NavBar extends Component {
                 <NavLink href="#">Home</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#">About</NavLink>
+                <NavLink href="#about">About</NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
                   Dropdown
                 </DropdownToggle>
                 <DropdownMenu right>
-                  <DropdownItem>Marketing Process</DropdownItem>
-                  <DropdownItem>Portfolio</DropdownItem>
-                  <DropdownItem>Partners</DropdownItem>
+                  <DropdownItem href="#process">Marketing Process</DropdownItem>
+                  <DropdownItem href="#portfolio">Portfolio</DropdownItem>
+                  <DropdownItem href="#partners">Partners</DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>

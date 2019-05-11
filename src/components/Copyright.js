@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 
 const Copyright = () => {
   return (
@@ -8,7 +8,11 @@ const Copyright = () => {
         <Col>
           <p>
             © 2019 Digital. All Rights Reserved | Design by{' '}
-            <a href="https://w3layouts.com/" target="_blank">
+            <a
+              href="https://w3layouts.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               W3layouts
             </a>
           </p>

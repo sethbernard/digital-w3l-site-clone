@@ -53,14 +53,10 @@ span.navbar-toggler-icon {
   width: 80px;
   text-align: center;
 }
+
 .navbar-collapse .nav-item {
   display: flex;
   justify-content: center;
-}
-.navbar-collapse {
-  border: 1px solid white;
-  margin-top: 40px;
-  padding: 10px 0 20px 0;
 }
 
 /* Hero Section */

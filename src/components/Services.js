@@ -4,7 +4,7 @@ import { Card, CardText, CardTitle } from 'reactstrap';
 
 const Services = () => {
   return (
-    <div className="services-fw">
+    <div className="services-fw" id="services">
       <Container className="services-section">
         <Row>
           <Col lg="4">
