@@ -10,7 +10,7 @@ import Partners from './components/Partners';
 import Footer from './components/Footer';
 import Copyright from './components/Copyright';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Hero />
@@ -24,6 +24,6 @@ function App() {
       <Copyright />
     </div>
   );
-}
+};
 
 export default App;

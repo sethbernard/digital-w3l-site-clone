@@ -1,38 +1,41 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
+import Popup from './Popup';
 
-const Portfolio = () => {
-  const imageFileNames = ['p1', 'p2', 'p3', 'p4', 'p5', 'p6', 'p7', 'p8'];
-  const portfolioImages = imageFileNames.map(image => {
+class Portfolio extends Component {
+  render() {
+    const imageFileNames = ['p1', 'p2', 'p3', 'p4', 'p5', 'p6', 'p7', 'p8'];
+    const portfolioImages = imageFileNames.map(image => {
+      return (
+        <Col xs="6" md="3" key={image}>
+          <img
+            src={require(`../assets/portfolio-images/${image}.jpg`)}
+            alt=""
+            className="img-fluid"
+            style={{ paddingBottom: '30px' }}
+          />
+        </Col>
+      );
+    });
+
     return (
-      <Col xs="6" md="3" key={image}>
-        <img
-          src={require(`../assets/portfolio-images/${image}.jpg`)}
-          alt=""
-          className="img-fluid"
-          style={{ paddingBottom: '30px' }}
-        />
-      </Col>
+      <div className="portfolio-section" id="portfolio">
+        <Container>
+          <h1>Our Portfolio</h1>
+        </Container>
+        <Container
+          style={{
+            display: 'flex',
+            flexWrap: 'wrap',
+            justifyContent: 'space-between',
+            alignContent: 'center'
+          }}
+        >
+          <Row>{portfolioImages}</Row>
+        </Container>
+      </div>
     );
-  });
-
-  return (
-    <div className="portfolio-section" id="portfolio">
-      <Container>
-        <h1>Our Portfolio</h1>
-      </Container>
-      <Container
-        style={{
-          display: 'flex',
-          flexWrap: 'wrap',
-          justifyContent: 'space-between',
-          alignContent: 'center'
-        }}
-      >
-        <Row>{portfolioImages}</Row>
-      </Container>
-    </div>
-  );
-};
+  }
+}
 
 export default Portfolio;
