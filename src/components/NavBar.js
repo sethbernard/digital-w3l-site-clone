@@ -13,6 +13,7 @@ import {
   Container,
   Collapse
 } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 class NavBar extends Component {
   constructor(props) {
@@ -42,28 +43,34 @@ class NavBar extends Component {
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav navbar className="ml-auto">
                 <NavItem>
-                  <NavLink href="#">Home</NavLink>
+                  <NavLink tag={Link} to="/">
+                    Home
+                  </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="#about">About</NavLink>
+                  <NavLink href="/#about">About</NavLink>
                 </NavItem>
                 <UncontrolledDropdown nav inNavbar>
                   <DropdownToggle nav caret>
                     Dropdown
                   </DropdownToggle>
                   <DropdownMenu right>
-                    <DropdownItem href="#process">
+                    <DropdownItem href="/#process">
                       Marketing Process
                     </DropdownItem>
-                    <DropdownItem href="#portfolio">Portfolio</DropdownItem>
-                    <DropdownItem href="#partners">Partners</DropdownItem>
+                    <DropdownItem href="/#portfolio">Portfolio</DropdownItem>
+                    <DropdownItem href="/#partners">Partners</DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
                 <NavItem>
-                  <NavLink href="#">Team Page</NavLink>
+                  <NavLink tag={Link} to="/team">
+                    Team Page
+                  </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="#">Contact Page</NavLink>
+                  <NavLink tag={Link} to="/contact">
+                    Contact Page
+                  </NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink href="#" id="login">

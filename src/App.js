@@ -1,31 +1,25 @@
 import React from 'react';
-import './App.css';
+import { Route, BrowserRouter, Switch } from 'react-router-dom';
 import NavBar from './components/NavBar';
-import Hero from './components/Hero';
-import About from './components/About';
-import Services from './components/Services';
-import Process from './components/Process';
-import Agency from './components/Agency';
-import Portfolio from './components/Portfolio';
-import Partners from './components/Partners';
+import HomePage from './components/HomePage';
+import TeamPage from './components/TeamPage';
+import ContactPage from './components/ContactPage';
 import Footer from './components/Footer';
 import Copyright from './components/Copyright';
 
-const Home = () => {
+const App = () => {
   return (
-    <div className="App">
+    <BrowserRouter>
       <NavBar />
-      <Hero />
-      <About />
-      <Services />
-      <Process />
-      <Agency />
-      <Portfolio />
-      <Partners />
+      <Switch>
+        <Route exact path="/" component={HomePage} />
+        <Route path="/team" component={TeamPage} />
+        <Route path="/contact" component={ContactPage} />
+      </Switch>
       <Footer />
       <Copyright />
-    </div>
+    </BrowserRouter>
   );
 };
 
-export default Home;
+export default App;
