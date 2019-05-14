@@ -106,7 +106,9 @@ span.navbar-toggler-icon {
 
 .about-section h1,
 .services-section h1,
-.process-section h1 {
+.process-section h1,
+.portfolio-section h1,
+.partners-section h1 {
   font-size: 45px;
   line-height: 54px;
   font-weight: 500;
@@ -136,7 +138,7 @@ div.agency-fw {
 }
 
 .services-section h1 {
-  padding: 40px 0;
+  padding: 45px 0;
 }
 .card {
   max-height: 310px;
@@ -377,6 +379,55 @@ ul.link-list {
   opacity: 1;
 }
 
+/* Contact Page */
+
+.contact-section h1 {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.contact-map,
+.contact-form {
+  border: 2px dotted #b74592;
+  height: 100%;
+}
+
+.contact-map {
+  padding: 20px 15px;
+}
+
+.contact-form {
+  padding: 50px 30px;
+}
+
+.contact-form > button {
+  width: 100%;
+  background-color: slateblue;
+}
+
+.communication {
+  margin: 48px 0;
+}
+
+.communication h4 {
+  margin-bottom: 24px;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333;
+}
+
+.fa.fa-comments,
+.fa.fa-life-ring {
+  color: #b74592;
+  margin-right: 5px;
+}
+
+.communication p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #666;
+}
+
 /* Media Queries */
 
 /* Extra small to Medium screen width */
@@ -432,7 +483,6 @@ ul.link-list {
   .agency-section h1 {
     text-align: center;
   }
-
   .agency-section p {
     padding: 0px;
   }
