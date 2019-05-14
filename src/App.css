@@ -7,7 +7,7 @@
 
 /* Navbar */
 
-.navbar {
+.navbar-fw {
   background: slateblue;
 }
 
@@ -61,7 +61,7 @@ span.navbar-toggler-icon {
 
 /* Hero Section */
 
-.jumbo {
+.hero-fw {
   width: 100vw;
   background: slateblue;
 }

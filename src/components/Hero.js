@@ -18,8 +18,7 @@ class Hero extends Component {
 
   render() {
     return (
-      <div className="jumbo">
-        <NavBar />
+      <div className="hero-fw">
         <Container className="hero">
           <Row className="banner">
             <Col md="6">
