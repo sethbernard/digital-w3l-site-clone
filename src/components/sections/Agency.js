@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import laptop from '../assets/laptop-banner-w3.png';
+import laptop from '../../assets/laptop-banner-w3.png';
 
 function Agency() {
   return (

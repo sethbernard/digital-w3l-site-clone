@@ -1,11 +1,11 @@
 import React from 'react';
 import { Route, BrowserRouter, Switch } from 'react-router-dom';
-import NavBar from './components/NavBar';
-import HomePage from './components/HomePage';
-import TeamPage from './components/TeamPage';
-import ContactPage from './components/ContactPage';
-import Footer from './components/Footer';
-import Copyright from './components/Copyright';
+import NavBar from './components/sections/NavBar';
+import HomePage from './components/pages/HomePage';
+import TeamPage from './components/pages/TeamPage';
+import ContactPage from './components/pages/ContactPage';
+import Footer from './components/sections/Footer';
+import Copyright from './components/sections/Copyright';
 
 const App = () => {
   return (

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import bannerImage from '../assets/digital-w3-banner.png';
-import laptopImage from '../assets/laptop-banner-w3.png';
-import Popup from './Popup';
+import bannerImage from '../../assets/digital-w3-banner.png';
+import laptopImage from '../../assets/laptop-banner-w3.png';
+import Popup from '../Popup';
 
 class Hero extends Component {
   state = {

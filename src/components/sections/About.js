@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import gameboy from '../assets/gameboy-w3.png';
+import gameboy from '../../assets/gameboy-w3.png';
 
 const About = () => {
   return (

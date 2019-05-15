@@ -17,7 +17,7 @@ const TeamPage = () => {
     return (
       <Col xs="6" md="3" key={person} className="employee">
         <img
-          src={require(`../assets/team/${person.fileName}.jpg`)}
+          src={require(`../../assets/team/${person.fileName}.jpg`)}
           alt=""
           className="img-fluid"
           style={{ paddingBottom: '30px' }}

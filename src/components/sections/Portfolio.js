@@ -8,7 +8,7 @@ class Portfolio extends Component {
       return (
         <Col xs="6" md="3" key={image}>
           <img
-            src={require(`../assets/portfolio-images/${image}.jpg`)}
+            src={require(`../../assets/portfolio-images/${image}.jpg`)}
             alt=""
             className="img-fluid"
             style={{ paddingBottom: '30px' }}
