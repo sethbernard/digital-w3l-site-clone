@@ -379,6 +379,53 @@ ul.link-list {
   opacity: 1;
 }
 
+/* Team Page */
+
+.team-heading {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+.employee {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.employee h4 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #333;
+}
+
+.employee p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #6f6f6f;
+}
+
+.employee a {
+  margin-right: 12px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.employee a:hover {
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.fb-icon {
+  color: #3a5a97;
+}
+
+.twitter-icon {
+  color: #57b4f5;
+}
+
+.envelope-icon {
+  color: #dd4b39;
+}
+
 /* Contact Page */
 
 .contact-section h1 {
