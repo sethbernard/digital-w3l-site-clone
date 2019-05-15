@@ -509,6 +509,10 @@ ul.link-list {
   }
 }
 
+.login-form h4 {
+  text-align: center;
+}
+
 /* Extra small screen width only */
 
 @media (max-width: 575.98px) {
