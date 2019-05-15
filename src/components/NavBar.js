@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import LoginForm from './LoginForm';
 import {
   Navbar,
   NavbarToggler,
@@ -13,22 +15,29 @@ import {
   Container,
   Collapse
 } from 'reactstrap';
-import { Link } from 'react-router-dom';
 
 class NavBar extends Component {
   constructor(props) {
     super(props);
 
-    this.toggle = this.toggle.bind(this);
     this.state = {
-      isOpen: false
+      isOpen: false,
+      modal: false
     };
   }
-  toggle() {
+  toggleNav = () => {
     this.setState({
       isOpen: !this.state.isOpen
     });
-  }
+  };
+
+  toggleLogin = () => {
+    this.setState(prevState => ({
+      ...this.state,
+      modal: !prevState.modal
+    }));
+  };
+
   render() {
     return (
       <div className="navbar-fw">
@@ -37,7 +46,7 @@ class NavBar extends Component {
             <NavbarBrand href="/">
               <span className="fa fa-cloud" /> Digital
             </NavbarBrand>
-            <NavbarToggler onClick={this.toggle}>
+            <NavbarToggler onClick={this.toggleNav}>
               <span className="fa fa-bars" />
             </NavbarToggler>
             <Collapse isOpen={this.state.isOpen} navbar>
@@ -73,7 +82,8 @@ class NavBar extends Component {
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="#" id="login">
+                  <LoginForm isOpen={this.state.modal} />
+                  <NavLink onClick={this.toggleLogin} href="#" id="login">
                     Login
                   </NavLink>
                 </NavItem>
