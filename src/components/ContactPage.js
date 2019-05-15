@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
 const ContactPage = () => {
   return (
@@ -19,6 +19,7 @@ const ContactPage = () => {
             frameBorder="0"
             allowFullscreen
             className="contact-map"
+            title="US Map"
           />
         </Col>
         <Col xs="12" md="6" className="mt-4">

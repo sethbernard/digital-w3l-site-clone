@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import NavBar from './NavBar';
 import { Container, Row, Col } from 'reactstrap';
 import bannerImage from '../assets/digital-w3-banner.png';
 import laptopImage from '../assets/laptop-banner-w3.png';

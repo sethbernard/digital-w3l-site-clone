@@ -25,9 +25,27 @@ const TeamPage = () => {
         <h4>{person.fullName}</h4>
         <p>{person.jobTitle}</p>
         <div className="team-icons">
-          <a href="#" className="fab fa-facebook fb-icon" />
-          <a href="#" className="fab fa-twitter twitter-icon" />
-          <a href="#" className="fa fa-envelope-open envelope-icon" />
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-facebook fb-icon" />
+          </a>
+          <a
+            href="https://twitter.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-twitter twitter-icon" />
+          </a>
+          <a
+            href="https://mail.google.com/mail/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fa fa-envelope-open envelope-icon" />
+          </a>
         </div>
       </Col>
     );
