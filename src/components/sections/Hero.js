@@ -33,8 +33,8 @@ class Hero extends Component {
               <Popup isOpen={this.state.modal} image={laptopImage} href="/" />
               <button onClick={this.toggle}>Watch Video</button>
             </Col>
-            <Col md="6">
-              <img src={bannerImage} alt="banner" className="img-responsive" />
+            <Col md="6" xs="12">
+              <img src={bannerImage} alt="banner" className="img-fluid" />
             </Col>
           </Row>
         </Container>
